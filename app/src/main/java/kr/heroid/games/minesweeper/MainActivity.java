@@ -111,23 +111,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public boolean onLongClick(View v) {
                 Toast.makeText(MainActivity.this, "Code by HanTaehyeok\nOriginal game by microsoft.", Toast.LENGTH_SHORT).show();
-//                if(ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_DENIED){
-//                    ActivityCompat.requestPermissions(MainActivity.this, new String[] {Manifest.permission.READ_PHONE_STATE}, 215);
-//                    //Toast.makeText(MainActivity.this, "Checking DevMode...", Toast.LENGTH_SHORT).show();
-//                    return true;
-//                }
-//                if(Build.VERSION.SDK_INT >= 26 && Build.getSerial().equals("SerialNumberHere")) {
-//                    for (int i = 0; i < fieldData.length - 1; i++) {
-//                        if (isAnswerShowed && userFieldData[i] == 0) {
-//                            fieldButtons[i].setVisibility(View.VISIBLE);
-//                        } else if (!isAnswerShowed && userFieldData[i] == 0) {
-//                            fieldButtons[i].setVisibility(View.INVISIBLE);
-//                        }
-//                    }
-//                    isAnswerShowed = !isAnswerShowed;
-//                }else{
-//                    Toast.makeText(MainActivity.this, "DevMode Check Failed.", Toast.LENGTH_LONG).show();
-//                }
                 return true;
             }
         });
@@ -238,22 +221,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if(requestCode == 427){
             Toast.makeText(this, "Permission not granted", Toast.LENGTH_SHORT).show();
         }
-//        else if(requestCode == 215 && ContextCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED){
-//            if(Build.VERSION.SDK_INT >= 26 && Build.getSerial().equals("SerialNumberHere")) {
-//                for (int i = 0; i < fieldData.length - 1; i++) {
-//                    if (isAnswerShowed && userFieldData[i] == 0) {
-//                        fieldButtons[i].setVisibility(View.VISIBLE);
-//                    } else if (!isAnswerShowed && userFieldData[i] == 0) {
-//                        fieldButtons[i].setVisibility(View.INVISIBLE);
-//                    }
-//                }
-//                isAnswerShowed = !isAnswerShowed;
-//
-//                //Toast.makeText(MainActivity.this, "Complete!!", Toast.LENGTH_SHORT).show();
-//            }
-//        }else if(requestCode == 215){
-//            Toast.makeText(MainActivity.this, "DevMode Check Failed.", Toast.LENGTH_SHORT).show();
-//        }
     }
 
     boolean isExitDialogShowing = false;
