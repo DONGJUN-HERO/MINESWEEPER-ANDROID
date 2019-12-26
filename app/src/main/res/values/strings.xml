@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MineSweeper</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="mine_left">Mines left : </string>
+    <string name="time">Time : </string>
+    <string name="mode_flag">Flag mode</string>
+
+    <string name="dialog_title">New Game</string>
+    <string name="dialog_width">Width</string>
+    <string name="dialog_height">Height</string>
+    <string name="dialog_mines">Mines</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">Restart</string>
+
+    <string name="menu_screen_capture">Take Screen Shot</string>
+    <string name="menu_zoom">Zoom</string>
+
+    <string name="dialog_exit">Game will not save automatically.\nDo you really want to exit?</string>
+
+    <string name="zoom">Zoom : </string>
+
+</resources>

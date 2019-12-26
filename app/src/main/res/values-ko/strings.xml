@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MineSweeper</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="mine_left">Mines left : </string>
+    <string name="time">Time : </string>
+    <string name="mode_flag">Flag mode</string>
+
+    <string name="dialog_title">새 게임</string>
+    <string name="dialog_width">너비</string>
+    <string name="dialog_height">높이</string>
+    <string name="dialog_mines">지뢰 수</string>
+    <string name="dialog_cancel">취소</string>
+    <string name="dialog_ok">시작</string>
+
+    <string name="menu_screen_capture">스크린샷 찍기</string>
+    <string name="menu_zoom">확대/축소</string>
+
+    <string name="dialog_exit">진행중인 게임은 저장되지 않습니다.\n종료하시겠습니까?</string>
+
+    <string name="zoom">Zoom : </string>
+
+</resources>
